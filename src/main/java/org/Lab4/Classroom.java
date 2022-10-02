@@ -59,5 +59,22 @@ public class Classroom {
             System.out.print((char)i);
         fr.close();
     }
+
+    public static void vuln(String[] args) {
+        try {
+
+            String[] cmdArray = new String[2];
+            cmdArray[0] = "notepad.exe";
+            cmdArray[1] = "example.txt";
+
+            System.out.println("Executing notepad.exe and opening example.txt");
+
+            Process process = Runtime.getRuntime().exec(cmdArray,null);
+
+            System.out.println("example.txt should now open.");
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
 }
 
