@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.Lab4.TestClassroom" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-10-02T09:07:06" hostname="LAPTOP-R6E60HRJ" time="0.052">
+  <properties/>
+  <testcase name="Favourite subject should be set" classname="org.Lab4.TestClassroom" time="0.044"/>
+  <testcase name="Class number should be set" classname="org.Lab4.TestClassroom" time="0.001"/>
+  <testcase name="Name should be set" classname="org.Lab4.TestClassroom" time="0.001"/>
+  <testcase name="Email should be set" classname="org.Lab4.TestClassroom" time="0.001"/>
+  <testcase name="Surname should be set" classname="org.Lab4.TestClassroom" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
